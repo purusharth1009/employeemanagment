@@ -1,0 +1,35 @@
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.filters{
+    margin-bottom:20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: aqua;
+}
+.pagination{
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+button{
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+button:disabled{
+    opacity:0.5;
+    cursor:not-allowed;
+}
